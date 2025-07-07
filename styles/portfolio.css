@@ -1,0 +1,112 @@
+ 
+.open-sans-normal{
+  font-family: "Roboto"sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-primary{
+    color:brown
+}
+.dark-2{
+    color: #e20404;
+
+
+}
+.btn-primary{
+    background-color: #e20404;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    font size:20px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+ nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 200px;
+ }
+ .nav-title{
+    font-weight: 800;
+    font-size: 45px;
+ }
+ .header{
+    background-image:url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+ }
+ nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ nav ul li{
+    list-style: none;
+
+    margin-right: 50px;
+ }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font size:20px;
+
+
+    }
+    .secondary-bg{
+        background-color: #0cfc30;
+    }
+    .section-title{
+        font-size: 50px;
+        font-weight: 800;
+
+        color:black
+    }
+    .section-description{
+        font-size: 20px;
+        
+        color: #333;
+
+    }
+
+    .banner{
+      display:flex;
+      justify-content:space-between ;
+      margin:0px 35px 0px 230px;
+
+
+    }
+    .banner-content{
+        max-width: 580px;
+
+    }
+
+    .banner-greeting{
+        font-size: 50px;
+        font-weight: 800;
+        margin-top: 100px;
+    }
+    .banner-title{
+        font-size: 90px;
+        font-weight: 800;
+        margin-top: 20px;
+    }
+    .banner-pic{
+        width: 500px;
+
+    }
+    .about{
+        border-radius: 10px;
+        padding: 50px 50px;
+        text-align: center;
+
+    }
+    main{
+        max-width:1140px ;
+        margin:0 auto;
+        padding:130px 150px;
+    }
